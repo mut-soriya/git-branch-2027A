@@ -1,21 +1,21 @@
 {
   "_instructions": "Replace the URLs below with your own images. HTML contains no image URLs.",
-  "avatar": "https://placehold.co/900x1100/0b1020/9efcff?text=YOUR+ANIME+AVATAR",
-  "heroBackground": "https://images.unsplash.com/photo-1519608487953-e999c86e7455?auto=format&fit=crop&w=2200&q=85",
-  "aboutImage": "https://placehold.co/900x1100/10162a/ff4fd8?text=ABOUT+IMAGE",
-  "contactBackground": "https://images.unsplash.com/photo-1519608487953-e999c86e7455?auto=format&fit=crop&w=2200&q=80",
+  "avatar": "https://static.posters.cz/image/hp/106230.jpg",
+  "heroBackground": "https://i.pinimg.com/736x/d4/ff/89/d4ff8939e0a847f4dfb02261a2aeebc9.jpg",
+  "aboutImage": "https://i.pinimg.com/736x/b5/1b/c7/b51bc7c7f77ef1d955e9a2e1b4caa64e.jpg",
+  "contactBackground": "https://www.wallpaperalchemy.com/storage/wallpapers/122/attack-on-titan-wallpaper-high-resolution-4k.jpg",
   "projects": [
     {
       "id": 1,
-      "image": "https://placehold.co/1200x800/0b1020/9efcff?text=IT+AWARENESS+CLUB"
+      "image": "https://m.media-amazon.com/images/I/81QRjjNX1RL.jpg"
     },
     {
       "id": 2,
-      "image": "https://placehold.co/1200x800/11152a/ff4fd8?text=PYTHON+MINI+PROJECTS"
+      "image": "https://4kwallpapers.com/images/wallpapers/one-piece-character-1920x1080-15328.jpeg"
     },
     {
       "id": 3,
-      "image": "https://placehold.co/1200x800/0a1820/7cf7c9?text=DIGITAL+SERVICE+RESEARCH"
+      "image": "https://images7.alphacoders.com/140/1406654.png"
     }
   ]
 }
