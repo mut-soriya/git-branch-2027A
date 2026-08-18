@@ -12,3 +12,47 @@
   .hero-visual { min-height:430px; }
   .avatar-frame { width:260px; }
 }
+
+
+/* Khmer responsive typography */
+@media (max-width: 768px) {
+  body.khmer-mode .nav-link {
+    font-size: 12px;
+    letter-spacing: 0;
+  }
+
+  body.khmer-mode .tiny-btn,
+  body.khmer-mode .btn {
+    font-size: 13px;
+    letter-spacing: 0;
+  }
+
+  body.khmer-mode .section-heading h2 {
+    line-height: 1.35;
+    letter-spacing: 0;
+  }
+
+  body.khmer-mode .hero-description,
+  body.khmer-mode .section-heading p,
+  body.khmer-mode .about-copy p,
+  body.khmer-mode .project-body p,
+  body.khmer-mode .timeline-card p,
+  body.khmer-mode .mission-card p,
+  body.khmer-mode .strength-card p,
+  body.khmer-mode .contact-copy p {
+    line-height: 1.9;
+  }
+}
+
+@media (max-width: 360px) {
+  body.khmer-mode .glitch-title {
+    font-size: 2.35rem;
+    line-height: 1.15;
+    letter-spacing: 0;
+  }
+
+  body.khmer-mode .hero-role {
+    line-height: 1.6;
+    letter-spacing: 0;
+  }
+}

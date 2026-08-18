@@ -15,6 +15,8 @@
   --radius: 22px;
   --font-display: "Orbitron", sans-serif;
   --font-body: "Poppins", sans-serif;
+  --font-khmer-info: "Khmer OS Battambang", "Battambang", sans-serif;
+  --font-khmer-heading: "Khmer OS Muol Light", "Khmer OS Muol", sans-serif;
 }
 
 :root[data-theme="light"] {
@@ -44,7 +46,59 @@ body {
   font-family: var(--font-body);
   overflow-x: hidden;
 }
-body.khmer-mode { --font-body: "Battambang", "Poppins", sans-serif; }
+body.khmer-mode {
+  --font-body: var(--font-khmer-info);
+  --font-display: var(--font-khmer-heading);
+  font-family: var(--font-khmer-info);
+}
+
+/* Khmer mode: information, navigation, buttons, and dynamic JSON content */
+body.khmer-mode,
+body.khmer-mode p,
+body.khmer-mode li,
+body.khmer-mode span,
+body.khmer-mode a,
+body.khmer-mode button,
+body.khmer-mode input,
+body.khmer-mode textarea,
+body.khmer-mode label,
+body.khmer-mode small,
+body.khmer-mode strong,
+body.khmer-mode b {
+  font-family: var(--font-khmer-info);
+}
+
+/* Khmer mode: headings and display text use Khmer OS Muol Light */
+body.khmer-mode h1,
+body.khmer-mode h2,
+body.khmer-mode h3,
+body.khmer-mode h4,
+body.khmer-mode h5,
+body.khmer-mode h6,
+body.khmer-mode .brand,
+body.khmer-mode .nav-link,
+body.khmer-mode .section-index,
+body.khmer-mode .section-heading h2,
+body.khmer-mode .hero-role,
+body.khmer-mode .glitch-title,
+body.khmer-mode .contact-copy h2,
+body.khmer-mode .system-header h2,
+body.khmer-mode .timeline-card h3,
+body.khmer-mode .mission-card h3,
+body.khmer-mode .skill-card h3,
+body.khmer-mode .project-body h3,
+body.khmer-mode .strength-card h3,
+body.khmer-mode .hud-box h3 {
+  font-family: var(--font-khmer-heading);
+}
+
+/* Keep technical/code-style content readable in Khmer mode */
+body.khmer-mode code,
+body.khmer-mode pre,
+body.khmer-mode .terminal,
+body.khmer-mode .terminal * {
+  font-family: Consolas, "Courier New", monospace;
+}
 a { color: inherit; text-decoration: none; }
 button, input { font: inherit; }
 button { color: inherit; }
@@ -416,4 +470,102 @@ img { max-width: 100%; display: block; }
   .contact-link { grid-template-columns:70px 1fr 18px; }
   .contact-link b { font-size:9px; }
   .terminal-input label { display:none; }
+}
+
+/* =========================================================
+   KHMER READABILITY — relaxed line spacing for clean text
+   ========================================================= */
+body.khmer-mode {
+  line-height: 1.8;
+  letter-spacing: 0;
+}
+
+body.khmer-mode p,
+body.khmer-mode li,
+body.khmer-mode .hero-description,
+body.khmer-mode .section-heading p,
+body.khmer-mode .about-content p,
+body.khmer-mode .skill-card p,
+body.khmer-mode .project-body p,
+body.khmer-mode .timeline-card p,
+body.khmer-mode .mission-card p,
+body.khmer-mode .strength-card p,
+body.khmer-mode .contact-copy > p {
+  line-height: 2;
+  letter-spacing: 0;
+}
+
+body.khmer-mode h1,
+body.khmer-mode h2,
+body.khmer-mode h3,
+body.khmer-mode h4,
+body.khmer-mode h5,
+body.khmer-mode h6 {
+  line-height: 1.5;
+  letter-spacing: 0;
+}
+
+body.khmer-mode .brand,
+body.khmer-mode .nav-link,
+body.khmer-mode .section-index,
+body.khmer-mode .hero-role,
+body.khmer-mode .tiny-btn,
+body.khmer-mode .btn,
+body.khmer-mode button {
+  line-height: 1.7;
+  letter-spacing: 0;
+}
+
+body.khmer-mode .hero-role {
+  line-height: 1.8;
+}
+
+body.khmer-mode .section-heading {
+  line-height: 1.8;
+}
+
+body.khmer-mode .large-copy {
+  line-height: 2;
+}
+
+body.khmer-mode .tag,
+body.khmer-mode .badge,
+body.khmer-mode .chip {
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  body.khmer-mode {
+    line-height: 1.85;
+  }
+
+  body.khmer-mode p,
+  body.khmer-mode li,
+  body.khmer-mode .hero-description,
+  body.khmer-mode .section-heading p,
+  body.khmer-mode .about-content p,
+  body.khmer-mode .skill-card p,
+  body.khmer-mode .project-body p,
+  body.khmer-mode .timeline-card p,
+  body.khmer-mode .mission-card p,
+  body.khmer-mode .strength-card p,
+  body.khmer-mode .contact-copy > p {
+    line-height: 2.05;
+  }
+
+  body.khmer-mode h1,
+  body.khmer-mode h2,
+  body.khmer-mode h3,
+  body.khmer-mode h4,
+  body.khmer-mode h5,
+  body.khmer-mode h6 {
+    line-height: 1.55;
+  }
+
+  body.khmer-mode .nav-link,
+  body.khmer-mode .tiny-btn,
+  body.khmer-mode .btn,
+  body.khmer-mode button {
+    line-height: 1.8;
+  }
 }
