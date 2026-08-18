@@ -2,45 +2,93 @@
   "missions": [
     {
       "number": "01",
-      "title": "Become a professional Web Developer",
-      "status": "ACTIVE"
+      "title": {
+        "en": "Become a professional Web Developer",
+        "km": "ក្លាយជាអ្នកអភិវឌ្ឍន៍ Web ដែលមានវិជ្ជាជីវៈ"
+      },
+      "status": {
+        "en": "ACTIVE",
+        "km": "សកម្ម"
+      }
     },
     {
       "number": "02",
-      "title": "Improve Software Testing & QA",
-      "status": "IN PROGRESS"
+      "title": {
+        "en": "Improve Software Testing & QA",
+        "km": "ពង្រឹងជំនាញ Software Testing និង QA"
+      },
+      "status": {
+        "en": "IN PROGRESS",
+        "km": "កំពុងដំណើរការ"
+      }
     },
     {
       "number": "03",
-      "title": "Build real-world projects",
-      "status": "NEXT"
+      "title": {
+        "en": "Build real-world projects",
+        "km": "បង្កើតគម្រោងដែលអាចអនុវត្តបានក្នុងពិភពពិត"
+      },
+      "status": {
+        "en": "NEXT",
+        "km": "បន្ទាប់"
+      }
     },
     {
       "number": "04",
-      "title": "Keep learning new technologies",
-      "status": "ACTIVE"
+      "title": {
+        "en": "Keep learning new technologies",
+        "km": "បន្តរៀនបច្ចេកវិទ្យាថ្មីៗ"
+      },
+      "status": {
+        "en": "ACTIVE",
+        "km": "សកម្ម"
+      }
     }
   ],
   "strengths": [
     {
       "icon": "⌁",
-      "title": "Problem Solving",
-      "description": "Breaking complex problems into smaller understandable steps."
+      "title": {
+        "en": "Problem Solving",
+        "km": "ការដោះស្រាយបញ្ហា"
+      },
+      "description": {
+        "en": "Breaking complex problems into smaller understandable steps.",
+        "km": "បំបែកបញ្ហាស្មុគស្មាញទៅជាជំហានតូចៗដែលអាចយល់បាន។"
+      }
     },
     {
       "icon": "↗",
-      "title": "Continuous Learning",
-      "description": "Continuously practicing and exploring new technologies."
+      "title": {
+        "en": "Continuous Learning",
+        "km": "ការរៀនជាបន្តបន្ទាប់"
+      },
+      "description": {
+        "en": "Continuously practicing and exploring new technologies.",
+        "km": "អនុវត្ត និងស្វែងយល់ពីបច្ចេកវិទ្យាថ្មីៗជាបន្តបន្ទាប់។"
+      }
     },
     {
       "icon": "◎",
-      "title": "Teamwork",
-      "description": "Communication, collaboration, and sharing ideas."
+      "title": {
+        "en": "Teamwork",
+        "km": "ការងារជាក្រុម"
+      },
+      "description": {
+        "en": "Communication, collaboration, and sharing ideas.",
+        "km": "ការទំនាក់ទំនង ការសហការ និងការចែករំលែកគំនិត។"
+      }
     },
     {
       "icon": "◈",
-      "title": "Attention to Detail",
-      "description": "Careful attention when designing, coding, and testing."
+      "title": {
+        "en": "Attention to Detail",
+        "km": "យកចិត្តទុកដាក់លម្អិត"
+      },
+      "description": {
+        "en": "Careful attention when designing, coding, and testing.",
+        "km": "យកចិត្តទុកដាក់ក្នុងការរចនា សរសេរកូដ និងធ្វើតេស្ត។"
+      }
     }
   ],
   "contact": {

@@ -2,51 +2,99 @@
   "skills": [
     {
       "name": "HTML5",
-      "level": "Learning",
+      "level": {
+        "en": "Learning",
+        "km": "កំពុងរៀន"
+      },
       "icon": "</>",
-      "description": "Semantic structure and modern web development."
+      "description": {
+        "en": "Semantic structure and modern web development.",
+        "km": "រចនាសម្ព័ន្ធ Semantic និងការអភិវឌ្ឍន៍គេហទំព័រទំនើប។"
+      }
     },
     {
       "name": "CSS3",
-      "level": "Learning",
+      "level": {
+        "en": "Learning",
+        "km": "កំពុងរៀន"
+      },
       "icon": "#",
-      "description": "Responsive layouts, Flexbox, Grid, animations, and modern UI."
+      "description": {
+        "en": "Responsive layouts, Flexbox, Grid, animations, and modern UI.",
+        "km": "ប្លង់ Responsive, Flexbox, Grid, Animation និង UI ទំនើប។"
+      }
     },
     {
       "name": "SASS / SCSS",
-      "level": "Learning",
+      "level": {
+        "en": "Learning",
+        "km": "កំពុងរៀន"
+      },
       "icon": "S",
-      "description": "Reusable styles and organized CSS architecture."
+      "description": {
+        "en": "Reusable styles and organized CSS architecture.",
+        "km": "រចនាប័ទ្មដែលអាចប្រើឡើងវិញ និងការរៀបចំស្ថាបត្យកម្ម CSS។"
+      }
     },
     {
       "name": "Python",
-      "level": "Learning",
+      "level": {
+        "en": "Learning",
+        "km": "កំពុងរៀន"
+      },
       "icon": "Py",
-      "description": "Programming fundamentals, logic, functions, and problem solving."
+      "description": {
+        "en": "Programming fundamentals, logic, functions, and problem solving.",
+        "km": "មូលដ្ឋាន Programming, Logic, Functions និងការដោះស្រាយបញ្ហា។"
+      }
     },
     {
       "name": "Flask",
-      "level": "Learning",
+      "level": {
+        "en": "Learning",
+        "km": "កំពុងរៀន"
+      },
       "icon": "F",
-      "description": "Python backend fundamentals."
+      "description": {
+        "en": "Python backend fundamentals.",
+        "km": "មូលដ្ឋាន Backend ជាមួយ Python។"
+      }
     },
     {
       "name": "Git & GitHub",
-      "level": "Active",
+      "level": {
+        "en": "Active",
+        "km": "កំពុងអនុវត្ត"
+      },
       "icon": "⌘",
-      "description": "Version control and project collaboration."
+      "description": {
+        "en": "Version control and project collaboration.",
+        "km": "ការគ្រប់គ្រង Version និងការសហការលើគម្រោង។"
+      }
     },
     {
       "name": "Quality Assurance",
-      "level": "Practicing",
+      "level": {
+        "en": "Practicing",
+        "km": "កំពុងអនុវត្ត"
+      },
       "icon": "QA",
-      "description": "Testing, bug identification, verification, and software quality."
+      "description": {
+        "en": "Testing, bug identification, verification, and software quality.",
+        "km": "ការធ្វើតេស្ត កំណត់ Bug ការផ្ទៀងផ្ទាត់ និងគុណភាពកម្មវិធី។"
+      }
     },
     {
       "name": "Responsive Design",
-      "level": "Learning",
+      "level": {
+        "en": "Learning",
+        "km": "កំពុងរៀន"
+      },
       "icon": "↗",
-      "description": "Creating interfaces for desktop, tablet, and mobile."
+      "description": {
+        "en": "Creating interfaces for desktop, tablet, and mobile.",
+        "km": "ការបង្កើត Interface សម្រាប់ Desktop, Tablet និង Mobile។"
+      }
     }
   ]
 }

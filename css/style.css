@@ -372,7 +372,7 @@ img { max-width: 100%; display: block; }
 .footer { padding:25px 0; border-top:1px solid var(--line); color:#66738b; font:700 8px var(--font-display); letter-spacing:.08em; }
 .footer-inner { display:flex; justify-content:space-between; gap:20px; }
 
-.boot-screen { position:fixed; inset:0; z-index:10000; background:#04060d; display:grid; place-items:center; transition:opacity .6s,visibility .6s; }
+.boot-screen { position:fixed; inset:0; z-index:10000; background:#04060d; display:grid; place-items:center; transition:opacity .25s ease,visibility .25s ease; }
 .boot-screen.hidden { opacity:0; visibility:hidden; pointer-events:none; }
 .boot-inner { width:min(520px,calc(100% - 40px)); font:700 10px "Courier New",monospace; color:#7cf7c9; }
 .boot-logo { font:900 30px var(--font-display); color:var(--cyan); margin-bottom:35px; }
@@ -380,7 +380,7 @@ img { max-width: 100%; display: block; }
 .boot-line { display:flex; justify-content:space-between; padding:8px 0; border-bottom:1px solid rgba(124,247,201,.08); }
 .boot-line b { color:var(--green); }
 .boot-progress { height:3px; margin-top:25px; background:rgba(124,247,201,.1); overflow:hidden; }
-.boot-progress i { display:block; height:100%; width:0; background:#7cf7c9; animation:boot 1.1s forwards; }
+.boot-progress i { display:block; height:100%; width:0; background:#7cf7c9; animation:boot .35s forwards; }
 .boot-inner p { color:#506078; letter-spacing:.2em; }
 
 .particle { position:absolute; width:2px; height:2px; border-radius:50%; background:var(--cyan); box-shadow:0 0 9px var(--cyan); animation:particleMove linear infinite; }
@@ -568,4 +568,17 @@ body.khmer-mode .chip {
   body.khmer-mode button {
     line-height: 1.8;
   }
+}
+
+
+/* =========================================================
+   FAST FIRST PAINT
+   ========================================================= */
+.project-card, .skill-card, .mission-card, .strength-card {
+  will-change: opacity, transform;
+}
+body.khmer-mode .hero-description,
+body.khmer-mode .section-heading p,
+body.khmer-mode .project-body p {
+  text-wrap: pretty;
 }

@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Soriya MUT — futuristic anime-inspired developer portfolio.">
+  <meta name="description" content="Soriya MUT — futuristic anime-inspired developer portfolio." data-i18n-attr="content:meta.description">
   <meta name="theme-color" content="#080b14">
-  <title>SORIYA // Developer Command Center</title>
+  <title data-i18n="meta.title">SORIYA // Developer Command Center</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,11 +22,11 @@
   <div id="boot-screen" class="boot-screen">
     <div class="boot-inner">
       <div class="boot-logo">SORIYA<span>.SYS</span></div>
-      <div class="boot-line"><span>INITIALIZING</span><b>OK</b></div>
-      <div class="boot-line"><span>LOADING PORTFOLIO CORE</span><b>OK</b></div>
-      <div class="boot-line"><span>CONNECTING TO DEVELOPER MODE</span><b>OK</b></div>
+      <div class="boot-line"><span data-i18n="boot.initializing">INITIALIZING</span><b>OK</b></div>
+      <div class="boot-line"><span data-i18n="boot.loading">LOADING PORTFOLIO CORE</span><b>OK</b></div>
+      <div class="boot-line"><span data-i18n="boot.connecting">CONNECTING TO DEVELOPER MODE</span><b>OK</b></div>
       <div class="boot-progress"><i></i></div>
-      <p>BUILD • LEARN • GROW</p>
+      <p data-i18n="common.buildLearnGrow">BUILD • LEARN • GROW</p>
     </div>
   </div>
 
@@ -40,7 +40,7 @@
       <span>SORIYA<span class="brand-suffix">//DEV</span></span>
     </a>
 
-    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" data-i18n-attr="aria-label:nav.open" aria-expanded="false">
       <span></span><span></span><span></span>
     </button>
 
@@ -69,10 +69,10 @@
           <div class="eyebrow"><span class="status-dot"></span><span data-i18n="hero.eyebrow">DEVELOPER SIGNAL DETECTED</span></div>
 
           <p class="hello" data-i18n="hero.hello">HELLO, I'M</p>
-          <h1 class="glitch-title" data-text="SORIYA MUT">SORIYA <span>MUT</span></h1>
+          <h1 class="glitch-title" data-text="SORIYA MUT"> <span data-i18n="hero.nameFirst">SORIYA</span> <span data-i18n="hero.nameLast">MUT</span></h1>
 
           <div class="hero-role">
-            <span id="typedRole">Web Developer</span><span class="caret">_</span>
+            <span id="typedRole" data-i18n="hero.role">Web Developer</span><span class="caret">_</span>
           </div>
 
           <p class="hero-description" data-i18n="hero.description">
@@ -100,34 +100,34 @@
             <img id="avatar" class="avatar" alt="Soriya anime avatar" loading="eager">
             <div class="avatar-fallback" id="avatarFallback">
               <span>S</span>
-              <small>ANIME AVATAR<br>URL REQUIRED</small>
+              <small data-i18n-html="common.avatarFallback">ANIME AVATAR<br>URL REQUIRED</small>
             </div>
           </div>
 
           <div class="float-card card-code">
-            <span>&lt; Web Developer /&gt;</span>
+            <span data-i18n="hero.roleCode">&lt; Web Developer /&gt;</span>
           </div>
           <div class="float-card card-python">
-            <b>Python</b><span>● Learning</span>
+            <b>Python</b><span data-i18n="common.learning">● Learning</span>
           </div>
           <div class="float-card card-git">
-            <b>Git</b><span>● Active</span>
+            <b>Git</b><span data-i18n="common.active">● Active</span>
           </div>
           <div class="float-card card-qa">
-            <b>QA</b><span>● Practicing</span>
+            <b>QA</b><span data-i18n="common.practicing">● Practicing</span>
           </div>
 
           <div class="target-reticle" aria-hidden="true"><span></span></div>
         </div>
       </div>
 
-      <div class="scroll-hint"><span>SCROLL TO EXPLORE</span><i></i></div>
+      <div class="scroll-hint"><span data-i18n="common.scrollExplore">SCROLL TO EXPLORE</span><i></i></div>
     </section>
 
     <section id="about" class="section section-dark">
       <div class="container">
         <div class="section-heading reveal">
-          <span class="section-index">01 / PROFILE</span>
+          <span class="section-index" data-i18n="sections.profile">01 / PROFILE</span>
           <h2 data-i18n="about.title">MORE THAN JUST A STUDENT</h2>
           <p data-i18n="about.subtitle">A learner who turns curiosity into working interfaces and experiments.</p>
         </div>
@@ -135,8 +135,8 @@
         <div class="about-grid">
           <div class="about-image panel reveal">
             <img id="aboutImage" alt="Soriya portfolio visual" loading="lazy">
-            <div class="image-fallback"><span>ABOUT // VISUAL</span></div>
-            <div class="corner-label">VISUAL_ID: 01</div>
+            <div class="image-fallback"><span data-i18n="common.aboutVisual">ABOUT // VISUAL</span></div>
+            <div class="corner-label" data-i18n="common.visualId">VISUAL_ID: 01</div>
           </div>
 
           <div class="about-content reveal reveal-delay-1">
@@ -149,35 +149,35 @@
             </p>
 
             <div class="mini-stats">
-              <div><strong>BUILD</strong><span>Practical projects</span></div>
-              <div><strong>LEARN</strong><span>New technologies</span></div>
-              <div><strong>TEST</strong><span>Quality mindset</span></div>
+              <div><strong data-i18n="common.build">BUILD</strong><span data-i18n="common.practicalProjects">Practical projects</span></div>
+              <div><strong data-i18n="common.learn">LEARN</strong><span data-i18n="common.newTechnologies">New technologies</span></div>
+              <div><strong data-i18n="common.test">TEST</strong><span data-i18n="common.qualityMindset">Quality mindset</span></div>
             </div>
           </div>
         </div>
 
         <div class="character-panel panel reveal">
           <div class="panel-top">
-            <span>CHARACTER_PROFILE.exe</span>
-            <span class="online-label">● ONLINE</span>
+            <span data-i18n="profile.characterFile">CHARACTER_PROFILE.exe</span>
+            <span class="online-label" data-i18n="common.online">● ONLINE</span>
           </div>
           <div class="character-grid">
             <div class="character-art">
               <div class="character-sigil">S</div>
-              <span>DEVELOPER UNIT / 01</span>
+              <span data-i18n="profile.developerUnit">DEVELOPER UNIT / 01</span>
             </div>
             <div class="character-data">
-              <div><small>NAME</small><b>SORIYA MUT</b></div>
-              <div><small>ROLE</small><b>IT STUDENT</b></div>
-              <div><small>CLASS</small><b>WEB DEVELOPER</b></div>
-              <div><small>SPECIALTY</small><b>PROBLEM SOLVING</b></div>
-              <div><small>STATUS</small><b>LEARNING</b></div>
-              <div><small>MISSION</small><b>BUILD • LEARN • GROW</b></div>
+              <div><small data-i18n="profile.name">NAME</small><b>SORIYA MUT</b></div>
+              <div><small data-i18n="profile.role">ROLE</small><b data-i18n="profile.itStudent">IT STUDENT</b></div>
+              <div><small data-i18n="profile.class">CLASS</small><b data-i18n="profile.webDeveloper">WEB DEVELOPER</b></div>
+              <div><small data-i18n="profile.specialty">SPECIALTY</small><b data-i18n="profile.problemSolving">PROBLEM SOLVING</b></div>
+              <div><small data-i18n="profile.status">STATUS</small><b data-i18n="common.learningWord">LEARNING</b></div>
+              <div><small data-i18n="profile.mission">MISSION</small><b data-i18n="common.buildLearnGrow">BUILD • LEARN • GROW</b></div>
 
               <div class="xp-wrap">
-                <div class="xp-head"><span>DEVELOPER XP</span><span>LEARNING MODE</span></div>
+                <div class="xp-head"><span data-i18n="profile.developerXp">DEVELOPER XP</span><span data-i18n="profile.learningMode">LEARNING MODE</span></div>
                 <div class="xp-bar"><i style="width:80%"></i></div>
-                <small>VISUAL PROGRESS INDICATOR — NOT A REAL QUALIFICATION</small>
+                <small data-i18n="profile.progressNote">VISUAL PROGRESS INDICATOR — NOT A REAL QUALIFICATION</small>
               </div>
             </div>
           </div>
@@ -188,7 +188,7 @@
     <section id="skills" class="section section-accent">
       <div class="container">
         <div class="section-heading reveal">
-          <span class="section-index">02 / ARSENAL</span>
+          <span class="section-index" data-i18n="sections.arsenal">02 / ARSENAL</span>
           <h2 data-i18n="skills.title">MY TECH ARSENAL</h2>
           <p data-i18n="skills.subtitle">Tools and concepts I’m learning through practice.</p>
         </div>
@@ -200,7 +200,7 @@
     <section id="projects" class="section section-dark">
       <div class="container">
         <div class="section-heading reveal">
-          <span class="section-index">03 / BUILDS</span>
+          <span class="section-index" data-i18n="sections.builds">03 / BUILDS</span>
           <h2 data-i18n="projects.title">THINGS I'VE BUILT</h2>
           <p data-i18n="projects.subtitle">Small steps, real practice, and experiments that become better over time.</p>
         </div>
@@ -214,17 +214,17 @@
         <div class="system-panel panel reveal">
           <div class="system-header">
             <div>
-              <span class="section-index">04 / LIVE HUD</span>
+              <span class="section-index" data-i18n="sections.liveHud">04 / LIVE HUD</span>
               <h2 data-i18n="system.title">SYSTEM STATUS</h2>
             </div>
-            <span class="system-ping"><i></i> PORTFOLIO ONLINE</span>
+            <span class="system-ping"><i></i> <span data-i18n="system.portfolioOnline">PORTFOLIO ONLINE</span></span>
           </div>
 
           <div class="system-grid">
-            <div class="system-cell"><small>CURRENT MODE</small><b>LEARNING</b><span class="pulse-line"></span></div>
-            <div class="system-cell"><small>CURRENT FOCUS</small><b>WEB DEVELOPMENT</b><span class="pulse-line"></span></div>
-            <div class="system-cell"><small>BUILD STATUS</small><b>ACTIVE</b><span class="pulse-line"></span></div>
-            <div class="system-cell"><small>MINDSET</small><b>KEEP LEARNING</b><span class="pulse-line"></span></div>
+            <div class="system-cell"><small data-i18n="system.currentMode">CURRENT MODE</small><b data-i18n="common.learningWord">LEARNING</b><span class="pulse-line"></span></div>
+            <div class="system-cell"><small data-i18n="system.currentFocus">CURRENT FOCUS</small><b data-i18n="common.webDevelopment">WEB DEVELOPMENT</b><span class="pulse-line"></span></div>
+            <div class="system-cell"><small data-i18n="system.buildStatus">BUILD STATUS</small><b data-i18n="common.activeWord">ACTIVE</b><span class="pulse-line"></span></div>
+            <div class="system-cell"><small data-i18n="system.mindset">MINDSET</small><b data-i18n="common.keepLearning">KEEP LEARNING</b><span class="pulse-line"></span></div>
           </div>
         </div>
       </div>
@@ -233,7 +233,7 @@
     <section id="journey" class="section section-dark">
       <div class="container">
         <div class="section-heading reveal">
-          <span class="section-index">05 / PATH</span>
+          <span class="section-index" data-i18n="sections.path">05 / PATH</span>
           <h2 data-i18n="journey.title">MY JOURNEY</h2>
           <p data-i18n="journey.subtitle">A learning path focused on practical growth.</p>
         </div>
@@ -243,17 +243,17 @@
           <article class="timeline-item reveal">
             <div class="timeline-node">01</div>
             <div class="timeline-card panel">
-              <span class="timeline-date">2026 — PRESENT</span>
+              <span class="timeline-date" data-i18n="journey.present">2026 — PRESENT</span>
               <h3>Passerelles Numériques Cambodia</h3>
-              <h4>IT / WEB DEVELOPMENT</h4>
-              <p>Developing technical and professional skills through practical learning in programming, web development, databases, software development, and quality assurance.</p>
+              <h4 data-i18n="journey.itWeb">IT / WEB DEVELOPMENT</h4>
+              <p data-i18n="journey.description">Developing technical and professional skills through practical learning in programming, web development, databases, software development, and quality assurance.</p>
             </div>
           </article>
         </div>
 
         <div class="missions">
           <div class="section-heading small reveal">
-            <span class="section-index">06 / NEXT QUESTS</span>
+            <span class="section-index" data-i18n="sections.nextQuests">06 / NEXT QUESTS</span>
             <h2 data-i18n="missions.title">NEXT LEVEL</h2>
           </div>
           <div class="mission-grid" id="missionsGrid"></div>
@@ -264,9 +264,9 @@
     <section id="terminal" class="section terminal-section">
       <div class="container">
         <div class="section-heading reveal">
-          <span class="section-index">07 / CONSOLE</span>
-          <h2>DEVELOPER TERMINAL</h2>
-          <p>Interactive portfolio information — no real system commands are executed.</p>
+          <span class="section-index" data-i18n="sections.console">07 / CONSOLE</span>
+          <h2 data-i18n="terminal.title">DEVELOPER TERMINAL</h2>
+          <p data-i18n="terminal.subtitle">Interactive portfolio information — no real system commands are executed.</p>
         </div>
 
         <div class="terminal panel reveal">
@@ -276,23 +276,23 @@
           </div>
           <div class="terminal-body" id="terminalBody">
             <div>soriya@portfolio:~$ <span>whoami</span></div>
-            <div class="terminal-output">IT Student<br>Web Developer<br>QA Learner<br>Problem Solver</div>
+            <div class="terminal-output" data-i18n-html="terminal.whoamiOutput">IT Student<br>Web Developer<br>QA Learner<br>Problem Solver</div>
             <div>soriya@portfolio:~$ <span>status</span></div>
-            <div class="terminal-output">Learning...<br>Building...<br>Experimenting...</div>
+            <div class="terminal-output" data-i18n-html="terminal.statusOutput">Learning...<br>Building...<br>Experimenting...</div>
           </div>
           <form class="terminal-input" id="terminalForm">
             <label>soriya@portfolio:~$</label>
-            <input id="terminalCommand" autocomplete="off" spellcheck="false" aria-label="Terminal command" placeholder="type about, skills, projects, contact, status">
+            <input id="terminalCommand" autocomplete="off" spellcheck="false" aria-label="Terminal command" data-i18n-attr="aria-label:terminal.commandLabel" placeholder="type about, skills, projects, contact, status" data-i18n-attr-placeholder="terminal.placeholder">
           </form>
         </div>
 
         <div class="command-chips">
-          <button type="button" data-command="about">about</button>
-          <button type="button" data-command="skills">skills</button>
-          <button type="button" data-command="projects">projects</button>
-          <button type="button" data-command="contact">contact</button>
-          <button type="button" data-command="status">status</button>
-          <button type="button" data-command="help">help</button>
+          <button type="button" data-command="about" data-i18n="terminal.chip.about">About</button>
+          <button type="button" data-command="skills" data-i18n="terminal.chip.skills">Skills</button>
+          <button type="button" data-command="projects" data-i18n="terminal.chip.projects">Projects</button>
+          <button type="button" data-command="contact" data-i18n="terminal.chip.contact">Contact</button>
+          <button type="button" data-command="status" data-i18n="terminal.chip.status">Status</button>
+          <button type="button" data-command="help" data-i18n="terminal.chip.help">Help</button>
         </div>
       </div>
     </section>
@@ -300,7 +300,7 @@
     <section id="strengths" class="section section-accent">
       <div class="container">
         <div class="section-heading reveal">
-          <span class="section-index">08 / TRAITS</span>
+          <span class="section-index" data-i18n="sections.traits">08 / TRAITS</span>
           <h2 data-i18n="strengths.title">WHAT MAKES ME DIFFERENT</h2>
         </div>
         <div class="strength-grid" id="strengthGrid"></div>
@@ -311,7 +311,7 @@
       <div class="contact-bg"></div>
       <div class="container contact-layout">
         <div class="contact-copy reveal">
-          <span class="section-index">09 / CONNECTION</span>
+          <span class="section-index" data-i18n="sections.connection">09 / CONNECTION</span>
           <h2 data-i18n="contact.title">LET'S BUILD SOMETHING MEANINGFUL</h2>
           <p data-i18n="contact.description">Have a project, opportunity, or simply want to connect? I'd love to hear from you.</p>
 
@@ -319,10 +319,10 @@
         </div>
 
         <div class="contact-terminal panel reveal reveal-delay-1">
-          <div class="panel-top"><span>OPEN_CHANNELS</span><span>ENCRYPTED</span></div>
+          <div class="panel-top"><span data-i18n="contact.openChannels">OPEN_CHANNELS</span><span data-i18n="contact.encrypted">ENCRYPTED</span></div>
           <div class="contact-scan"></div>
-          <div class="contact-big">READY<br><span>TO CONNECT?</span></div>
-          <a class="btn btn-primary wide" id="emailButton" href="#"><span>OPEN EMAIL</span><b>↗</b></a>
+          <div class="contact-big"><span data-i18n="contact.ready">READY</span><br><span data-i18n="contact.toConnect">TO CONNECT?</span></div>
+          <a class="btn btn-primary wide" id="emailButton" href="#"><span data-i18n="contact.openEmail">OPEN EMAIL</span><b>↗</b></a>
         </div>
       </div>
     </section>
@@ -330,23 +330,23 @@
 
   <footer class="footer">
     <div class="container footer-inner">
-      <span>© <span id="year"></span> SORIYA MUT // BUILD • LEARN • GROW</span>
-      <span>DESIGNED AS A DEVELOPER COMMAND CENTER</span>
+      <span>© <span id="year"></span> SORIYA MUT // <span data-i18n="common.buildLearnGrow">BUILD • LEARN • GROW</span></span>
+      <span data-i18n="footer.designed">DESIGNED AS A DEVELOPER COMMAND CENTER</span>
     </div>
   </footer>
 
   <div class="hud-overlay" id="hudOverlay" aria-hidden="true">
     <div class="hud-box">
       <button id="hudClose" class="hud-close" type="button">×</button>
-      <span class="section-index">DEVELOPER HUD</span>
-      <h3>SYSTEM ONLINE</h3>
+      <span class="section-index" data-i18n="hud.title">DEVELOPER HUD</span>
+      <h3 data-i18n="hud.online">SYSTEM ONLINE</h3>
       <div class="hud-grid">
-        <div><small>MODE</small><b>LEARNING</b></div>
-        <div><small>FOCUS</small><b>WEB DEV</b></div>
-        <div><small>QA</small><b>PRACTICING</b></div>
-        <div><small>ENERGY</small><b>BUILDING</b></div>
+        <div><small data-i18n="hud.mode">MODE</small><b data-i18n="common.learningWord">LEARNING</b></div>
+        <div><small data-i18n="hud.focus">FOCUS</small><b data-i18n="hud.webDev">WEB DEV</b></div>
+        <div><small data-i18n="hud.qa">QA</small><b data-i18n="common.practicingWord">PRACTICING</b></div>
+        <div><small data-i18n="hud.energy">ENERGY</small><b data-i18n="hud.building">BUILDING</b></div>
       </div>
-      <p>Welcome, developer.</p>
+      <p data-i18n="hud.welcome">Welcome, developer.</p>
     </div>
   </div>
 
