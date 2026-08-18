@@ -1,0 +1,14 @@
+/* Responsive overrides live in style.css for easier editing.
+   This file is intentionally kept as a separate entry point so the
+   responsive layer can be expanded without touching the main theme. */
+
+@media (min-width: 1500px) {
+  .container { width:min(1320px, calc(100% - 80px)); }
+}
+
+@media (max-width: 360px) {
+  .container { width:calc(100% - 22px); }
+  .glitch-title { font-size:2.65rem; }
+  .hero-visual { min-height:430px; }
+  .avatar-frame { width:260px; }
+}
