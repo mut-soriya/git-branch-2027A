@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Soriya MUT — futuristic anime-inspired developer portfolio.">
+  <meta name="theme-color" content="#080b14">
+  <title>SORIYA // Developer Command Center</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700&family=Battambang:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+  <div class="cursor-dot" aria-hidden="true"></div>
+  <div class="cursor-ring" aria-hidden="true"></div>
+
+  <div id="boot-screen" class="boot-screen">
+    <div class="boot-inner">
+      <div class="boot-logo">SORIYA<span>.SYS</span></div>
+      <div class="boot-line"><span>INITIALIZING</span><b>OK</b></div>
+      <div class="boot-line"><span>LOADING PORTFOLIO CORE</span><b>OK</b></div>
+      <div class="boot-line"><span>CONNECTING TO DEVELOPER MODE</span><b>OK</b></div>
+      <div class="boot-progress"><i></i></div>
+      <p>BUILD • LEARN • GROW</p>
+    </div>
+  </div>
+
+  <div class="ambient-grid" aria-hidden="true"></div>
+  <div class="particles" id="particles" aria-hidden="true"></div>
+  <div class="hud-lines" aria-hidden="true"></div>
+
+  <header class="navbar" id="navbar">
+    <a class="brand" href="#home" aria-label="Soriya home">
+      <span class="brand-mark">S</span>
+      <span>SORIYA<span class="brand-suffix">//DEV</span></span>
+    </a>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="nav-menu" id="navMenu">
+      <a class="nav-link active" href="#home" data-i18n="nav.home">HOME</a>
+      <a class="nav-link" href="#about" data-i18n="nav.about">ABOUT</a>
+      <a class="nav-link" href="#skills" data-i18n="nav.skills">SKILLS</a>
+      <a class="nav-link" href="#projects" data-i18n="nav.projects">PROJECTS</a>
+      <a class="nav-link" href="#journey" data-i18n="nav.journey">JOURNEY</a>
+      <a class="nav-link" href="#contact" data-i18n="nav.contact">CONTACT</a>
+
+      <div class="nav-actions">
+        <button class="tiny-btn" id="langToggle" type="button">EN / ខ្មែរ</button>
+        <button class="tiny-btn" id="themeToggle" type="button" aria-label="Toggle theme">☾</button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero section">
+      <div class="hero-backdrop" id="heroBackdrop"></div>
+      <div class="hero-overlay"></div>
+
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <div class="eyebrow"><span class="status-dot"></span><span data-i18n="hero.eyebrow">DEVELOPER SIGNAL DETECTED</span></div>
+
+          <p class="hello" data-i18n="hero.hello">HELLO, I'M</p>
+          <h1 class="glitch-title" data-text="SORIYA MUT">SORIYA <span>MUT</span></h1>
+
+          <div class="hero-role">
+            <span id="typedRole">Web Developer</span><span class="caret">_</span>
+          </div>
+
+          <p class="hero-description" data-i18n="hero.description">
+            I’m an IT student passionate about web development, programming, software quality, and building meaningful digital experiences.
+          </p>
+
+          <div class="hero-buttons">
+            <a class="btn btn-primary" href="#projects"><span data-i18n="hero.explore">EXPLORE MY WORK</span><b>↗</b></a>
+            <a class="btn btn-ghost" href="#contact"><span data-i18n="hero.connect">LET'S CONNECT</span><b>→</b></a>
+          </div>
+
+          <div class="hero-meta">
+            <span>HTML</span><i></i><span>CSS</span><i></i><span>JS</span><i></i><span>PYTHON</span>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal reveal-delay-2">
+          <div class="scan-circle"></div>
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+          <div class="avatar-glow"></div>
+
+          <div class="avatar-frame" id="avatarFrame">
+            <div class="scanline"></div>
+            <img id="avatar" class="avatar" alt="Soriya anime avatar" loading="eager">
+            <div class="avatar-fallback" id="avatarFallback">
+              <span>S</span>
+              <small>ANIME AVATAR<br>URL REQUIRED</small>
+            </div>
+          </div>
+
+          <div class="float-card card-code">
+            <span>&lt; Web Developer /&gt;</span>
+          </div>
+          <div class="float-card card-python">
+            <b>Python</b><span>● Learning</span>
+          </div>
+          <div class="float-card card-git">
+            <b>Git</b><span>● Active</span>
+          </div>
+          <div class="float-card card-qa">
+            <b>QA</b><span>● Practicing</span>
+          </div>
+
+          <div class="target-reticle" aria-hidden="true"><span></span></div>
+        </div>
+      </div>
+
+      <div class="scroll-hint"><span>SCROLL TO EXPLORE</span><i></i></div>
+    </section>
+
+    <section id="about" class="section section-dark">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="section-index">01 / PROFILE</span>
+          <h2 data-i18n="about.title">MORE THAN JUST A STUDENT</h2>
+          <p data-i18n="about.subtitle">A learner who turns curiosity into working interfaces and experiments.</p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-image panel reveal">
+            <img id="aboutImage" alt="Soriya portfolio visual" loading="lazy">
+            <div class="image-fallback"><span>ABOUT // VISUAL</span></div>
+            <div class="corner-label">VISUAL_ID: 01</div>
+          </div>
+
+          <div class="about-content reveal reveal-delay-1">
+            <div class="quote-mark">“</div>
+            <p class="large-copy" data-i18n="about.paragraph1">
+              My name is Soriya MUT. I am an IT student at Passerelles Numériques Cambodia. My main interests are Web Development, Programming, Software Quality, and Technology.
+            </p>
+            <p data-i18n="about.paragraph2">
+              I enjoy learning by building projects, solving programming problems, researching user needs, and experimenting with new technologies.
+            </p>
+
+            <div class="mini-stats">
+              <div><strong>BUILD</strong><span>Practical projects</span></div>
+              <div><strong>LEARN</strong><span>New technologies</span></div>
+              <div><strong>TEST</strong><span>Quality mindset</span></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="character-panel panel reveal">
+          <div class="panel-top">
+            <span>CHARACTER_PROFILE.exe</span>
+            <span class="online-label">● ONLINE</span>
+          </div>
+          <div class="character-grid">
+            <div class="character-art">
+              <div class="character-sigil">S</div>
+              <span>DEVELOPER UNIT / 01</span>
+            </div>
+            <div class="character-data">
+              <div><small>NAME</small><b>SORIYA MUT</b></div>
+              <div><small>ROLE</small><b>IT STUDENT</b></div>
+              <div><small>CLASS</small><b>WEB DEVELOPER</b></div>
+              <div><small>SPECIALTY</small><b>PROBLEM SOLVING</b></div>
+              <div><small>STATUS</small><b>LEARNING</b></div>
+              <div><small>MISSION</small><b>BUILD • LEARN • GROW</b></div>
+
+              <div class="xp-wrap">
+                <div class="xp-head"><span>DEVELOPER XP</span><span>LEARNING MODE</span></div>
+                <div class="xp-bar"><i style="width:80%"></i></div>
+                <small>VISUAL PROGRESS INDICATOR — NOT A REAL QUALIFICATION</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section section-accent">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="section-index">02 / ARSENAL</span>
+          <h2 data-i18n="skills.title">MY TECH ARSENAL</h2>
+          <p data-i18n="skills.subtitle">Tools and concepts I’m learning through practice.</p>
+        </div>
+
+        <div class="skills-grid" id="skillsGrid"></div>
+      </div>
+    </section>
+
+    <section id="projects" class="section section-dark">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="section-index">03 / BUILDS</span>
+          <h2 data-i18n="projects.title">THINGS I'VE BUILT</h2>
+          <p data-i18n="projects.subtitle">Small steps, real practice, and experiments that become better over time.</p>
+        </div>
+
+        <div class="projects-grid" id="projectsGrid"></div>
+      </div>
+    </section>
+
+    <section id="system" class="section system-section">
+      <div class="container">
+        <div class="system-panel panel reveal">
+          <div class="system-header">
+            <div>
+              <span class="section-index">04 / LIVE HUD</span>
+              <h2 data-i18n="system.title">SYSTEM STATUS</h2>
+            </div>
+            <span class="system-ping"><i></i> PORTFOLIO ONLINE</span>
+          </div>
+
+          <div class="system-grid">
+            <div class="system-cell"><small>CURRENT MODE</small><b>LEARNING</b><span class="pulse-line"></span></div>
+            <div class="system-cell"><small>CURRENT FOCUS</small><b>WEB DEVELOPMENT</b><span class="pulse-line"></span></div>
+            <div class="system-cell"><small>BUILD STATUS</small><b>ACTIVE</b><span class="pulse-line"></span></div>
+            <div class="system-cell"><small>MINDSET</small><b>KEEP LEARNING</b><span class="pulse-line"></span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="journey" class="section section-dark">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="section-index">05 / PATH</span>
+          <h2 data-i18n="journey.title">MY JOURNEY</h2>
+          <p data-i18n="journey.subtitle">A learning path focused on practical growth.</p>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-line"></div>
+          <article class="timeline-item reveal">
+            <div class="timeline-node">01</div>
+            <div class="timeline-card panel">
+              <span class="timeline-date">2026 — PRESENT</span>
+              <h3>Passerelles Numériques Cambodia</h3>
+              <h4>IT / WEB DEVELOPMENT</h4>
+              <p>Developing technical and professional skills through practical learning in programming, web development, databases, software development, and quality assurance.</p>
+            </div>
+          </article>
+        </div>
+
+        <div class="missions">
+          <div class="section-heading small reveal">
+            <span class="section-index">06 / NEXT QUESTS</span>
+            <h2 data-i18n="missions.title">NEXT LEVEL</h2>
+          </div>
+          <div class="mission-grid" id="missionsGrid"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="terminal" class="section terminal-section">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="section-index">07 / CONSOLE</span>
+          <h2>DEVELOPER TERMINAL</h2>
+          <p>Interactive portfolio information — no real system commands are executed.</p>
+        </div>
+
+        <div class="terminal panel reveal">
+          <div class="terminal-bar">
+            <span class="terminal-dot"></span><span class="terminal-dot"></span><span class="terminal-dot"></span>
+            <b>soriya@portfolio:~</b>
+          </div>
+          <div class="terminal-body" id="terminalBody">
+            <div>soriya@portfolio:~$ <span>whoami</span></div>
+            <div class="terminal-output">IT Student<br>Web Developer<br>QA Learner<br>Problem Solver</div>
+            <div>soriya@portfolio:~$ <span>status</span></div>
+            <div class="terminal-output">Learning...<br>Building...<br>Experimenting...</div>
+          </div>
+          <form class="terminal-input" id="terminalForm">
+            <label>soriya@portfolio:~$</label>
+            <input id="terminalCommand" autocomplete="off" spellcheck="false" aria-label="Terminal command" placeholder="type about, skills, projects, contact, status">
+          </form>
+        </div>
+
+        <div class="command-chips">
+          <button type="button" data-command="about">about</button>
+          <button type="button" data-command="skills">skills</button>
+          <button type="button" data-command="projects">projects</button>
+          <button type="button" data-command="contact">contact</button>
+          <button type="button" data-command="status">status</button>
+          <button type="button" data-command="help">help</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="strengths" class="section section-accent">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="section-index">08 / TRAITS</span>
+          <h2 data-i18n="strengths.title">WHAT MAKES ME DIFFERENT</h2>
+        </div>
+        <div class="strength-grid" id="strengthGrid"></div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="contact-bg"></div>
+      <div class="container contact-layout">
+        <div class="contact-copy reveal">
+          <span class="section-index">09 / CONNECTION</span>
+          <h2 data-i18n="contact.title">LET'S BUILD SOMETHING MEANINGFUL</h2>
+          <p data-i18n="contact.description">Have a project, opportunity, or simply want to connect? I'd love to hear from you.</p>
+
+          <div class="contact-links" id="contactLinks"></div>
+        </div>
+
+        <div class="contact-terminal panel reveal reveal-delay-1">
+          <div class="panel-top"><span>OPEN_CHANNELS</span><span>ENCRYPTED</span></div>
+          <div class="contact-scan"></div>
+          <div class="contact-big">READY<br><span>TO CONNECT?</span></div>
+          <a class="btn btn-primary wide" id="emailButton" href="#"><span>OPEN EMAIL</span><b>↗</b></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span>© <span id="year"></span> SORIYA MUT // BUILD • LEARN • GROW</span>
+      <span>DESIGNED AS A DEVELOPER COMMAND CENTER</span>
+    </div>
+  </footer>
+
+  <div class="hud-overlay" id="hudOverlay" aria-hidden="true">
+    <div class="hud-box">
+      <button id="hudClose" class="hud-close" type="button">×</button>
+      <span class="section-index">DEVELOPER HUD</span>
+      <h3>SYSTEM ONLINE</h3>
+      <div class="hud-grid">
+        <div><small>MODE</small><b>LEARNING</b></div>
+        <div><small>FOCUS</small><b>WEB DEV</b></div>
+        <div><small>QA</small><b>PRACTICING</b></div>
+        <div><small>ENERGY</small><b>BUILDING</b></div>
+      </div>
+      <p>Welcome, developer.</p>
+    </div>
+  </div>
+
+  <div class="toast" id="toast" role="status"></div>
+
+  <script src="js/data-loader.js"></script>
+  <script src="js/animations.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
