@@ -1,0 +1,52 @@
+{
+  "skills": [
+    {
+      "name": "HTML5",
+      "level": "Learning",
+      "icon": "</>",
+      "description": "Semantic structure and modern web development."
+    },
+    {
+      "name": "CSS3",
+      "level": "Learning",
+      "icon": "#",
+      "description": "Responsive layouts, Flexbox, Grid, animations, and modern UI."
+    },
+    {
+      "name": "SASS / SCSS",
+      "level": "Learning",
+      "icon": "S",
+      "description": "Reusable styles and organized CSS architecture."
+    },
+    {
+      "name": "Python",
+      "level": "Learning",
+      "icon": "Py",
+      "description": "Programming fundamentals, logic, functions, and problem solving."
+    },
+    {
+      "name": "Flask",
+      "level": "Learning",
+      "icon": "F",
+      "description": "Python backend fundamentals."
+    },
+    {
+      "name": "Git & GitHub",
+      "level": "Active",
+      "icon": "⌘",
+      "description": "Version control and project collaboration."
+    },
+    {
+      "name": "Quality Assurance",
+      "level": "Practicing",
+      "icon": "QA",
+      "description": "Testing, bug identification, verification, and software quality."
+    },
+    {
+      "name": "Responsive Design",
+      "level": "Learning",
+      "icon": "↗",
+      "description": "Creating interfaces for desktop, tablet, and mobile."
+    }
+  ]
+}
