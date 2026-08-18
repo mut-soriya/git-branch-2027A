@@ -1,0 +1,70 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "number": "01",
+      "title": {
+        "en": "IT Awareness Club",
+        "km": "ក្លឹប IT Awareness"
+      },
+      "category": {
+        "en": "WEB DEVELOPMENT",
+        "km": "អភិវឌ្ឍន៍គេហទំព័រ"
+      },
+      "description": {
+        "en": "A website project designed to present club activities, achievements, members, and information.",
+        "km": "គម្រោងគេហទំព័រសម្រាប់បង្ហាញសកម្មភាព សមិទ្ធផល សមាជិក និងព័ត៌មានរបស់ក្លឹប។"
+      },
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "link": "#"
+    },
+    {
+      "id": 2,
+      "number": "02",
+      "title": {
+        "en": "Python Mini Projects",
+        "km": "គម្រោងតូចៗជាមួយ Python"
+      },
+      "category": {
+        "en": "PROGRAMMING",
+        "km": "ការសរសេរកម្មវិធី"
+      },
+      "description": {
+        "en": "A collection of Python exercises and small applications focused on programming logic and problem solving.",
+        "km": "សំណុំលំហាត់ និងកម្មវិធីតូចៗដោយប្រើ Python ដែលផ្តោតលើ Logic និងការដោះស្រាយបញ្ហា។"
+      },
+      "technologies": [
+        "Python",
+        "Logic",
+        "Problem Solving"
+      ],
+      "link": "#"
+    },
+    {
+      "id": 3,
+      "number": "03",
+      "title": {
+        "en": "Digital Service Research",
+        "km": "ស្រាវជ្រាវសេវាឌីជីថល"
+      },
+      "category": {
+        "en": "UX / UI RESEARCH",
+        "km": "ស្រាវជ្រាវ UX / UI"
+      },
+      "description": {
+        "en": "Researching user needs, business challenges, and expectations for a digital service.",
+        "km": "សិក្សាពីតម្រូវការអ្នកប្រើប្រាស់ បញ្ហាអាជីវកម្ម និងការរំពឹងទុកចំពោះសេវាឌីជីថល។"
+      },
+      "technologies": [
+        "UX/UI",
+        "Research",
+        "Survey"
+      ],
+      "link": "#"
+    }
+  ]
+}

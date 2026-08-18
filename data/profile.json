@@ -1,0 +1,35 @@
+{
+  "name": "Soriya MUT",
+  "role": "IT Student • Web Developer • QA Learner",
+  "status": "Currently Learning & Building",
+  "description": {
+    "en": "I’m an IT student passionate about web development, programming, software quality, and building meaningful digital experiences.",
+    "km": "ខ្ញុំជានិស្សិត IT ដែលចូលចិត្តការអភិវឌ្ឍន៍គេហទំព័រ ការសរសេរកម្មវិធី គុណភាពកម្មវិធី និងការបង្កើតបទពិសោធន៍ឌីជីថលដែលមានអត្ថន័យ។"
+  },
+  "about": {
+    "en": {
+      "paragraph1": "My name is Soriya MUT. I am an IT student at Passerelles Numériques Cambodia. My main interests are Web Development, Programming, Software Quality, and Technology.",
+      "paragraph2": "I enjoy learning by building projects, solving programming problems, researching user needs, and experimenting with new technologies."
+    },
+    "km": {
+      "paragraph1": "ខ្ញុំឈ្មោះ សូរិយា ម៉ុត។ ខ្ញុំជានិស្សិត IT នៅ Passerelles Numériques Cambodia។ ចំណាប់អារម្មណ៍សំខាន់របស់ខ្ញុំគឺ Web Development, Programming, Software Quality និង Technology។",
+      "paragraph2": "ខ្ញុំចូលចិត្តរៀនតាមរយៈការបង្កើតគម្រោង ដោះស្រាយបញ្ហាកម្មវិធី សិក្សាពីតម្រូវការអ្នកប្រើប្រាស់ និងសាកល្បងបច្ចេកវិទ្យាថ្មីៗ។"
+    }
+  },
+  "roles": {
+    "en": [
+      "Web Developer",
+      "Python Learner",
+      "QA Enthusiast",
+      "Problem Solver",
+      "UI Explorer"
+    ],
+    "km": [
+      "អ្នកអភិវឌ្ឍន៍គេហទំព័រ",
+      "អ្នករៀន Python",
+      "អ្នកចូលចិត្ត QA",
+      "អ្នកដោះស្រាយបញ្ហា",
+      "អ្នកសិក្សា UI"
+    ]
+  }
+}

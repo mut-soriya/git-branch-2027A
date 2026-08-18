@@ -1,0 +1,21 @@
+{
+  "_instructions": "Replace the URLs below with your own images. HTML contains no image URLs.",
+  "avatar": "https://placehold.co/900x1100/0b1020/9efcff?text=YOUR+ANIME+AVATAR",
+  "heroBackground": "https://images.unsplash.com/photo-1519608487953-e999c86e7455?auto=format&fit=crop&w=2200&q=85",
+  "aboutImage": "https://placehold.co/900x1100/10162a/ff4fd8?text=ABOUT+IMAGE",
+  "contactBackground": "https://images.unsplash.com/photo-1519608487953-e999c86e7455?auto=format&fit=crop&w=2200&q=80",
+  "projects": [
+    {
+      "id": 1,
+      "image": "https://placehold.co/1200x800/0b1020/9efcff?text=IT+AWARENESS+CLUB"
+    },
+    {
+      "id": 2,
+      "image": "https://placehold.co/1200x800/11152a/ff4fd8?text=PYTHON+MINI+PROJECTS"
+    },
+    {
+      "id": 3,
+      "image": "https://placehold.co/1200x800/0a1820/7cf7c9?text=DIGITAL+SERVICE+RESEARCH"
+    }
+  ]
+}

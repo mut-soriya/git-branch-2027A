@@ -1,0 +1,53 @@
+{
+  "missions": [
+    {
+      "number": "01",
+      "title": "Become a professional Web Developer",
+      "status": "ACTIVE"
+    },
+    {
+      "number": "02",
+      "title": "Improve Software Testing & QA",
+      "status": "IN PROGRESS"
+    },
+    {
+      "number": "03",
+      "title": "Build real-world projects",
+      "status": "NEXT"
+    },
+    {
+      "number": "04",
+      "title": "Keep learning new technologies",
+      "status": "ACTIVE"
+    }
+  ],
+  "strengths": [
+    {
+      "icon": "⌁",
+      "title": "Problem Solving",
+      "description": "Breaking complex problems into smaller understandable steps."
+    },
+    {
+      "icon": "↗",
+      "title": "Continuous Learning",
+      "description": "Continuously practicing and exploring new technologies."
+    },
+    {
+      "icon": "◎",
+      "title": "Teamwork",
+      "description": "Communication, collaboration, and sharing ideas."
+    },
+    {
+      "icon": "◈",
+      "title": "Attention to Detail",
+      "description": "Careful attention when designing, coding, and testing."
+    }
+  ],
+  "contact": {
+    "email": "REPLACE_WITH_YOUR_EMAIL",
+    "github": "",
+    "linkedin": "",
+    "telegram": "",
+    "facebook": ""
+  }
+}
